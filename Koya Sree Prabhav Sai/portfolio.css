@@ -1,0 +1,120 @@
+body {
+  background-image: url("css_img10.jpg");
+   background-size: cover;
+  margin: 0;
+  font-family: Georgia;
+}
+
+img{
+  height: 250px;
+  margin: 5px 20px;
+  float:left;
+}
+
+nav{
+
+  padding: 10px 20px 5px 10px;
+  text-align: right;
+  background-image: url("css_img9.png");
+  background-position: center;
+  margin: 0 auto;
+}
+
+.logo{
+  width:25%;
+  float:left;
+  color: white;
+  text-align: left;
+  font-size: 50px;
+  font-family: 'Grenze Gotisch', cursive;
+
+}
+.menu-area li{
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  padding:  20px;
+}
+
+.menu-area li a{
+  text-decoration: none;
+  display: block;
+  padding: 5px 25px;
+  border-style: outset;
+  border-color: #ff1a1a;
+  border-radius: 12px;
+  color: white;
+}
+.menu-area li a:visited
+{
+
+}
+.menu-area li a:hover{
+  background-color: white;
+  border-style: inset;
+  color: red;
+}
+.menu-area li a:active{
+
+}
+
+.menu-area .current{
+  background-color: white;
+  border-style: inset;
+  color: red;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.heading{
+  margin: 20px 10px;
+  padding: 5px;
+  font-size: 30px;
+  font-family: "Lucida Bright", Georgia, serif;
+  border-left: solid 10px #ffcc00;
+  background-color: #ffff90;
+  font-weight: bold;
+}
+
+.links{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a{
+  background-color: #f2f2f2;
+  border: outset 5px #ffcc00;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 20px;
+}
+
+.links a i{
+  line-height: 3.2;
+}
+
+.links a:hover{
+  background-color: white;
+  border-style: inset;
+}
+
+.fa-facebook-official{
+  color: #1877F2
+}
+.fa-instagram{
+  color: #E1306C;
+}
+.fa-twitter{
+  color: #1DA1F2;
+}
+
+p{
+  line-height: 2;
+  margin-right: 10%;
+}
